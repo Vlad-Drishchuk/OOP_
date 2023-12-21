@@ -73,7 +73,7 @@ int FindMaxIdO() {
     Jornal.close();
 
     if (maxId != std::numeric_limits<int>::min()) {
-        //std::cout << "Max I D: " << maxId << std::endl;
+        //std::cout << "Maxc I D: " << maxId << std::endl;
         return maxId +1;
     } else {
         std::cout << "No valid IDs found." << std::endl;
